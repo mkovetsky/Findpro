@@ -1,0 +1,29 @@
+.header  {
+  display: flex;
+  padding-left: 150px;
+  padding-right: 150px;
+  justify-content: space-between;
+  align-items: center;
+
+&__actions{
+   display: flex;
+ }
+
+
+&__logo{
+
+
+ }
+&__explore{
+
+ }
+&__join{
+
+ }
+&__signup{
+
+ }
+&__login{
+
+ }
+}
