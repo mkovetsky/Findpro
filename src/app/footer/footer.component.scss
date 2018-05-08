@@ -1,0 +1,99 @@
+.footer{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  height: 100%;
+  max-height: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+
+  &__main{
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    font-size: 23px;
+    justify-content: space-between;
+
+  }
+  &__social{
+    margin-top: 25px;
+    margin-right: 90px;
+    display: flex;
+    flex-direction: column;
+    &-container{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+
+
+
+  &__company-container{
+    display: flex;
+    flex-direction: column;
+
+  }
+  &__customers-container{
+    display: flex;
+    flex-direction: column;
+  }
+  &__pros-container{
+    display: flex;
+    flex-direction: column;
+  }
+  &__support-container{
+    display: flex;
+    flex-direction: column;
+  }
+  &__links{
+    padding: 5px;
+    text-decoration: none;
+    &:visited{
+      color: black;
+    }
+  }
+
+&__end{
+  margin: 40px;
+  padding: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  max-height: 100px;
+  background-color: #D0D0D0;
+  align-items: center;
+}
+  &__copy{
+    margin-left: 90px;
+    color: darkgrey;
+  }
+  &__end-links{
+    margin-right: 90px;
+
+
+
+  }
+  &__end-privacy{
+    border-right: 1.5px solid darkgrey;
+    padding-right: 10px;
+    text-decoration: none;
+    &:visited{
+      color: darkgrey;
+      text-decoration: none;
+    }
+  }
+  &__end-terms{
+    padding-left: 10px;
+    text-decoration: none;
+    &:visited{
+      color: darkgrey;
+      text-decoration: none;
+    }
+  }
+}
